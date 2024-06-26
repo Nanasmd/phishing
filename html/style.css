@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    margin-bottom: 20px;
+    width: 175px; 
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 9px;
+    margin: 0 0 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #3897f0;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: #3897f0;
+    text-decoration: none;
+}
